@@ -1,0 +1,9 @@
+{% if reverse %}
+    {{ open_html }}
+    {{ list_no_open }}
+    {{ close_html }}
+{% else %}
+    {{ close_html }}
+        {{ list_no_open }}
+    {{ open_html }}
+{% endif %}

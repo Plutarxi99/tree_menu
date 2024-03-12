@@ -1,0 +1,12 @@
+{% load menu_tags %}
+
+<ul class="tree">
+    <li>
+        <details open>
+            <summary>{{ title }}</summary>
+            {% for item in menu %}
+                    {% control_iter_menu item %}
+            {% endfor %}
+            </details>
+            </li>
+            </ul>
