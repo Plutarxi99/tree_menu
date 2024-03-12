@@ -87,6 +87,8 @@ Django app для отображение древовидного меню с л
 
 * Переходим по пути menu.views.MenuView и добавляем названия меню, которые хотим добавить
 ![Screenshot from 2024-03-12 13-08-00](https://github.com/Plutarxi99/tree_menu/assets/132927381/df86b51c-ae66-4a27-abab-62ab24381a9c)
+
+
 * Добавляем в отображение в html-документ menu/templates/menu/index.html
 ![Screenshot from 2024-03-12 13-09-42](https://github.com/Plutarxi99/tree_menu/assets/132927381/0e520e44-0bca-4411-8917-d193f3214178)
 
